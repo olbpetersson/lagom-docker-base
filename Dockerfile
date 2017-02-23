@@ -1,5 +1,5 @@
-FROM openjdk:latest
+FROM openjdk:alpine
 
-COPY libs app/
+COPY libs-1.3 app/
 WORKDIR app/
 
